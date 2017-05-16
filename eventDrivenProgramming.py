@@ -1,13 +1,4 @@
-# def vowel(x):
-#     vow = "aeiouAEIOU"
-#     newword = ""
-#     for i in x:
-#         if i not in vow:
-#             newword = newword + i
-#     return newword
-#
-#
-# print vowel("ashok")
+
 # import turtle
 #
 # def applyrules(input):
@@ -305,12 +296,28 @@
 #
 # print insertion([8,5,4,3,9,12,34,56])
 
-def fibb(n):
-    fib = []
-    fib.append(0)
-    fib.append(1)
-    for i in range(2,n+1):
-        fib.append((fib[i-2]+fib[i-1])mod 10)
-    return fib
-print fibb(40)
+# def fibb(n):
+#     fib = []
+#     fib.append(0)
+#     fib.append(1)
+#     for i in range(2,n+1):
+#         fib.append((fib[i-2]+fib[i-1])mod 10)
+#     return fib
+# print fibb(40)
+
+#def sort(lis):
+#    for i in range(len(lis)):
+#        for j in range(len(lis)):
+            #if lis[i]!=lis[j]:
+#                if lis[i] > lis[j]:
+#                    lis[i],lis[j] = lis[j],lis[i]
+#    return lis
+#print sort([6,9,3,8,4,2,8,9]))
+
+
+
+
+
+
+
 

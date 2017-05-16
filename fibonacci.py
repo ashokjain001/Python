@@ -35,3 +35,22 @@ input = int(input("Enter number to compute fibbonacci series "))
 print fibb(input)
 
 
+def fib(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        print a
+        a, b = b, b + a
+
+
+print fib(10)
+
+def fib(n):
+    a =0
+    b = 1
+    while a < n:
+        print a
+        a,b = b, b+a
+
+
+print fib(10)
